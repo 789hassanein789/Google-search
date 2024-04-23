@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body id="main">
+    <header>
+        <a id="searchlink" href="index.html" class="active">Text search</a>
+        <a id="imagelink" href="image.html">Images search</a>
+        <a id="advansedlink" href="advansed.html">Advansed search</a>
+    </header>
+    <form action="https://www.google.com/search" id="aForm">
+        <div id="aDiv">
+            <div class="bDiv">
+                <label for="q">all these words:</label>
+            </div>
+            <div class="cDiv">
+                <input type="text" name="as_q" class="input" id="q">
+            </div>
+            <div class="dDiv">
+                <lable for="epq"></lable>
+            </div>
+        </div>
+        <div id="aDiv">
+            <div class="bDiv">
+                <label for="epq">this exact word or phrase:</label>
+            </div>
+            <div class="cDiv">
+                <input type="text" name="as_epq" class="input" id="epq">
+            </div>
+        </div>
+        <div id="aDiv">
+            <div class="bDiv">
+                <label for="oq">any of these words:</label>
+            </div>
+            <div class="cDiv">
+                <input type="text" name="as_oq" class="input" id="oq">
+            </div>
+            <div class="dDiv">
+                <lable for="epq"></lable>
+            </div>
+        </div>
+        <div id="aDiv">
+            <div class="bDiv">
+                <label for="eq">none of these words:</label>
+            </div>
+            <div class="cDiv">
+                <input type="text" name="as_eq" class="input" id="eq">
+            </div>
+            <div class="dDiv">
+                <lable for="epq"></lable>
+            </div>
+        </div>
+            <input type="submit" value="Google Search" id="aInput">
+    </form>
+</body>
+</html>
